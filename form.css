@@ -1,7 +1,7 @@
 /*General */
 
 html {
-    background: url('Images/sun.jpg') no-repeat;
+    background: url("Images/sun.jpg") no-repeat;
     background-size: cover;
     height: 100%;
 }
