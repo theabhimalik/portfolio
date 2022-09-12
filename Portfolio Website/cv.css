@@ -1,0 +1,43 @@
+/* Write CSS Here */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("images/prog2.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(160, 160, 160);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(189, 189, 189);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.Summary, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
