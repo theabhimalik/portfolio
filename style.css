@@ -165,9 +165,11 @@
                             }
                             
                             .home .text-four {
-                                font-size: 23px;
+                                font-size: 37px;
                                 margin: 5px 0;
-                                color: #0E2431;
+                                background: linear-gradient(orange, orange, orange, white, green, green);
+                                -webkit-background-clip: text;
+                                color: transparent;
                             }
                             
                             .home .button {
