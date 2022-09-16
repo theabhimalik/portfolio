@@ -170,6 +170,7 @@
                               background: linear-gradient(orange, orange, orange, white, green, green);
                               -webkit-background-clip: text;
                               color: transparent;
+                              font-weight: 400;
                           }
                           
                           .home .button {
