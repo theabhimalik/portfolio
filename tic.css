@@ -1,9 +1,8 @@
 /* Heading */
 
 h1 {
-    color: orangered;
-    color: darkgreen;
-    font-size: 100px;
+    color: rgb(71, 73, 199);
+    font-size: 70px;
     font-style: unset;
     font-family: cursive;
 }
@@ -38,7 +37,7 @@ h1 {
     box-sizing: border-box;
     width: 95px;
     height: 40px;
-    border: 5px solid #ff1e41;
+    border: 5px solid #008cff;
     margin: auto;
     border-radius: 4px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -64,7 +63,9 @@ h1 {
 
 #main {
     text-align: center;
-    background-color: currentcolor;
+    background: url('images/sun.jpg') no-repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 
