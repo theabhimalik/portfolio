@@ -89,7 +89,7 @@
 
     <form name="calc">
 
-        <table id="calc" border=2>
+        <table id="calc">
 
             <tr>
                 <td colspan=5><input id="btn" name="display" onkeypress="return event.charCode >= 48
@@ -109,7 +109,7 @@
 
                 <td><input id="btn" type="button" value="C" OnClick="calc.display.value=''">
                 </td>
-                <td><input id="btn" type="button" value="<-" OnClick="backspace(this.form)">
+                <td><input id="btn" type="button" value="-" OnClick="backspace(this.form)">
                 </td>
                 <td><input id="btn" type="button" value="=" OnClick="calculate(this.form)">
                 </td>
